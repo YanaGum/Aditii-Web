@@ -4,10 +4,71 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.logo{
+.button{
+  color: white !important;
+  text-transform: uppercase;
+}
 
-  color: cornflowerblue;
-  font-size: 18px;
+.btn {
+  padding: .575rem .575rem !important;
+  width: 150px;
+  border-radius: .666rem !important;
+  border: 3px solid white !important;
+  margin-top: -5px;
+}
+
+.btn-outline-secondary {
+  color: white !important;
+  border-color: white !important;
+}
+
+.btn:hover{
+  background-color: skyblue !important;
+
+}
+
+.fuaters{
+  background-color:rgb(37, 215, 221);
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.logo:visited {
+  color:  rgb(37, 215, 221); 
+} 
+
+.logo:hover {
+  text-decoration: none; 
+  color: none;
+}
+
+.logo{
+  font-size: 50px;
   font-family: 'Lobster', cursive;
+  font-weight: 500;
+}
+
+.menu{
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  
+}
+
+.menu:hover{
+  color: skyblue;
+}
+
+.text-fuaters{
+  color: white;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.p-fuaters{
+  color: white;
+  font-size: 20px;
 
 }
