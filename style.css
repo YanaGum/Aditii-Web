@@ -15,17 +15,14 @@
   border-radius: .666rem !important;
   border: 3px solid white !important;
   margin-top: -5px;
-  
 }
 
 .btn-outline-secondary {
-  
   border-color: white !important;
 }
 
 .btn:hover{
   background-color: skyblue !important;
-
 }
 
 .btn-shop{
@@ -51,7 +48,7 @@
 
 .card-{
   max-height: 400px;
-  border-bottom: 3px solid rgb(37, 215, 221) !important;
+  border-bottom: 4px solid rgb(37, 215, 221) !important;
 }
 
 .card-img-top{
@@ -101,7 +98,6 @@
   font-weight: 700;
 }
 
-
 .text-h3{
   color: white;
   text-transform: uppercase;
@@ -113,7 +109,6 @@
 .p-fuaters{
   color: white;
   font-size: 20px;
-
 }
 
 .p-footer{
