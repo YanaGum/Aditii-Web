@@ -9,22 +9,53 @@
   text-transform: uppercase;
 }
 
-.btn {
+.btn-now {
   padding: .575rem .575rem !important;
   width: 150px;
   border-radius: .666rem !important;
   border: 3px solid white !important;
   margin-top: -5px;
+  
 }
 
 .btn-outline-secondary {
-  color: white !important;
+  
   border-color: white !important;
 }
 
 .btn:hover{
   background-color: skyblue !important;
 
+}
+
+.btn-shop{
+  background-color:  rgb(14, 178, 243) !important;
+  color: white;
+  text-transform: uppercase;
+  border: white !important;
+}
+
+.card-title{
+  text-transform: uppercase;
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.dolar-title{
+  text-transform: uppercase;
+  color: gray;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card-{
+  max-height: 400px;
+  border-bottom: 3px solid rgb(37, 215, 221) !important;
+}
+
+.card-img-top{
+  max-height: 250px;
 }
 
 .fuaters{
@@ -53,11 +84,14 @@
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: white;
-  
 }
 
 .menu:hover{
   color: skyblue;
+}
+
+.media-body{
+  margin-top: 70px;
 }
 
 .text-fuaters{
@@ -67,8 +101,23 @@
   font-weight: 700;
 }
 
+
+.text-h3{
+  color: white;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
 .p-fuaters{
   color: white;
   font-size: 20px;
 
 }
+
+.p-footer{
+  color: white;
+  font-size: 14px;
+}
+
