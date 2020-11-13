@@ -1,10 +1,9 @@
-
 * {
   font-family: 'Lobster', cursive;
   font-family: 'Open Sans', sans-serif;
 }
 
-.button{
+.button {
   color: white !important;
   text-transform: uppercase;
 }
@@ -21,84 +20,84 @@
   border-color: white !important;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: skyblue !important;
 }
 
-.btn-shop{
-  background-color:  rgb(14, 178, 243) !important;
+.btn-shop {
+  background-color: rgb(14, 178, 243) !important;
   color: white;
   text-transform: uppercase;
   border: white !important;
 }
 
-.card-title{
+.card-title {
   text-transform: uppercase;
   color: gray;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
-.dolar-title{
+.dolar-title {
   text-transform: uppercase;
   color: gray;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
-.card-{
+.card- {
   max-height: 400px;
   border-bottom: 4px solid rgb(37, 215, 221) !important;
 }
 
-.card-img-top{
+.card-img-top {
   max-height: 250px;
 }
 
-.fuaters{
-  background-color:rgb(37, 215, 221);
+.fuaters {
+  background-color: rgb(37, 215, 221);
   padding-top: 80px;
   padding-bottom: 60px;
 }
 
 .logo:visited {
-  color:  rgb(37, 215, 221); 
-} 
+  color: rgb(37, 215, 221);
+}
 
 .logo:hover {
-  text-decoration: none; 
+  text-decoration: none;
   color: none;
 }
 
-.logo{
+.logo {
   font-size: 50px;
   font-family: 'Lobster', cursive;
   font-weight: 500;
 }
 
-.menu{
+.menu {
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: white;
 }
 
-.menu:hover{
+.menu:hover {
   color: skyblue;
 }
 
-.media-body{
-  margin-top: 70px;
+.media-body {
+  margin-top: 25px;
 }
 
-.text-fuaters{
+.text-fuaters {
   color: white;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
 }
 
-.text-h3{
+.text-h3 {
   color: white;
   text-transform: uppercase;
   padding-top: 15px;
@@ -106,13 +105,30 @@
   font-weight: 700;
 }
 
-.p-fuaters{
+.p-fuaters {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 
-.p-footer{
+.p-footer {
   color: white;
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .textlg {
+    font-size: 25px;
+  }
+
+  .textsm {
+    font-size: 12px;
+  }
+
+  .textmd {
+    font-size: 17px;
+  }
+
+  .foto-header {
+    width: 95%;
+  }
+}
