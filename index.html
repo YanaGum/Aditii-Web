@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="java.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -81,17 +85,25 @@
       </div>
     </div>
   </header>
-  <div class="container-fluid fuaters">
+  <div class="container-fluid fuaters ">
 
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-5 d-flex justify-content-end">
-
-        <img class="foto-header" id="pic"
-          src="http://keepkulla.prostoprint.com/static/products/full-f4e7fd44b172888e44878ab542ba8ff2.png" />
-
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-5 d-flex justify-content-end sliderr">
+        <div class="slider__wrapperr">
+          <div class="slider__itemr">
+            <img class="foto-header foto-title" id="pic"
+              src="https://www.sobaka.ru/images/image/01/16/66/83/_normal.png" width="80%" height="95%" />
+          </div>
+          <div class="slider__itemr">
+            <img class="foto-header foto-title" id="pic"
+              src="https://www.sobaka.ru/images/image/01/16/66/99/_normal.png" width="80%" height="95%" />
+          </div>
+        </div>
+        <a class="slider__controlrr sliderr__control_left" href="#" role="button"></a>
+        <a class="slider__controlrr sliderr__control_right slider__control_show" href="#" role="button"></a>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-7 mt-4">
-        <h1 class="text-fuaters textlg pb-2">cowhide <br>standard crew</h1>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-7 mt-5">
+        <h1 class="text-fuaters textlg pb-2 mt-5">cowhide <br>standard crew</h1>
         <p class="p-fuaters textmd pb-2">White coloured, short-seleeved, printed T-shirt for <br>men by Levi's. This
           crew-neck
           T-shirt is made of <br>ganic cotton and comes in a regular fit.</p>
@@ -101,7 +113,7 @@
   </div>
   <div class="row justify-content-center container-fluid">
     <div class="media col-sm-12 col-md-2 col-lg-2 col-xl-2 pr-5 mr-5">
-      <img class="d-flex align-self-center card card-img-top foto-header"
+      <img class="d-flex align-self-center card card-img-top foto-header shop-foto"
         src="http://pngimg.com/uploads/men_shoes/men_shoes_PNG7483.png" alt="Generic placeholder image">
       <div class="media-body">
         <h5 class="card-title textmd">brands shoes</h5>
@@ -109,7 +121,7 @@
       </div>
     </div>
     <div class="media col-sm-12 col-md-2 col-lg-2 col-xl-2 pr-5 mr-5">
-      <img class="d-flex align-self-center card card-img-top foto-header"
+      <img class="d-flex align-self-center card card-img-top foto-header shop-foto"
         src="http://www.pngall.com/wp-content/uploads/2016/04/T-Shirt-PNG-Image.png" alt="Generic placeholder image">
       <div class="media-body">
         <h5 class="card-title textmd">brands tshirt</h5>
@@ -117,7 +129,7 @@
       </div>
     </div>
     <div class="media col-sm-12 col-md-2 col-lg-2 col-xl-2 pr-5 mr-5">
-      <img class="d-flex align-self-center card card-img-top foto-header"
+      <img class="d-flex align-self-center card card-img-top foto-header shop-foto"
         src="https://images.ua.prom.st/782827674_w640_h640_muzhskie-shorty-i.jpg" alt="Generic placeholder image">
       <div class="media-body">
         <h5 class="card-title textmd">brands shorts</h5>
@@ -129,45 +141,48 @@
   <div class="container-fluid" style="background-color: rgb(12, 161, 219);">
     <div class="row">
       <div class="col-12">
-        <h4 class="menu container textsm pt-3 pb-2" style="font-size: 17px;">featured products</h4>
+        <h4 class="featured container textsm pt-3 pb-2 d-flex flex-wrap align-content-center" style="font-size: 17px;">
+          featured products</h4>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
-    <div class="row justify-content-center pt-5">
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+
+  <div class="justify-content-center pt-5 slider">
+    <div class="slider__wrapper container justify-content-center">
+      <div class="slider__item">
         <div class="card card-">
           <img class="card-img-top foto-header" src="https://camotec.ua/uploads/644742942.png" alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title textmd text-center">branded cargos</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
+            <h2 class="dolar-title textmd text-center">$300</h2>
             <div class="text-center">
               <a href="#!" class="btn-shop btn-primary btn">buy now</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+
+      <div class="slider__item">
         <div class="card card-">
-          <img class="card-img-top foto-header" src="http://pngimg.com/uploads/women_shoes/women_shoes_PNG7446.png"
-            alt="Card image cap">
+          <img class="mt-4 card-img-top foto-header" src="https://www.sobaka.ru/images/image/01/16/66/95/_normal.png"
+            width="80%" height="95%" alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title textmd text-center">branded shoe</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
+            <h2 class="dolar-title textmd text-center">$300</h2>
             <div class="text-center">
               <a href="#!" class="btn-shop btn-primary btn">buy now</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+      <div class="slider__item">
         <div class="card card-">
-          <img class="card-img-top foto-header" src="http://pngimg.com/uploads/wallet/wallet_PNG7517.png"
+          <img class="card-img-top foto-header mt-3" src="http://pngimg.com/uploads/wallet/wallet_PNG7517.png"
             alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title textmd text-center">branded purse</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
+            <h2 class="dolar-title textmd text-center">$300</h2>
             <div class="text-center">
               <a href="#!" class="btn-shop btn-primary btn">buy now</a>
             </div>
@@ -175,74 +190,101 @@
         </div>
       </div>
     </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+  </div>
 
 
-    <div class="row justify-content-center pt-5">
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+
+  <div class="justify-content-center pt-5 sliderm container">
+    <div class="slider__wrapperm justify-content-center">
+      <div class="slider__itemm">
         <div class="card card-">
           <img class="card-img-top foto-header"
             src="https://avatanplus.com/files/resources/original/58417e4b768be158bfd556de.png" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title textmd text-center">branded bag</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
+            <h4 class="card-title textsm text-center">branded bag</h4>
+            <h2 class="dolar-title textsm text-center">$300</h2>
             <div class="text-center">
               <a href="#!" class="btn-shop btn-primary btn">buy now</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-        <div class="card card-">
-          <img class="card-img-top foto-header"
-            src="http://www.pngall.com/wp-content/uploads/2016/05/Belt-PNG-Picture.png" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title textmd text-center">branded belt</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
-            <div class="text-center">
-              <a href="#!" class="btn-shop btn-primary btn">buy now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+      <div class="slider__itemm">
         <div class="card card-">
           <img class="card-img-top foto-header"
             src="https://images.ua.prom.st/1535392186_w640_h640_futbolka-muzhskaya-sinyaya.jpg" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title textmd text-center">branded T-shirt</h4>
-            <h2 class="dolar-title textmd mt-3 text-center">$300</h2>
+            <h4 class="card-title textsm text-center">branded T-shirt</h4>
+            <h2 class="dolar-title textsm text-center">$300</h2>
             <div class="text-center">
               <a href="#!" class="btn-shop btn-primary btn">buy now</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="slider__itemm">
+        <div class="card card-">
+          <img class="card-img-top foto-header"
+            src="http://www.pngall.com/wp-content/uploads/2016/05/Belt-PNG-Picture.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title textsm text-center">branded belt</h4>
+            <h2 class="dolar-title textsm text-center">$300</h2>
+            <div class="text-center">
+              <a href="#!" class="btn-shop btn-primary btn">buy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider__itemm">
+        <div class="card card-">
+          <img class="card-img-top foto-header" src="https://www.sobaka.ru/images/image/01/16/66/91/_normal.png"
+            alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title textsm  text-center">branded T-shirt</h4>
+            <h2 class="dolar-title textsm  text-center">$300</h2>
+            <div class="text-center">
+              <a href="#!" class="btn-shop btn-primary btn">buy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <a class="slider__controlm sliderm__control_left" href="#" role="button"></a>
+    <a class="slider__controlm sliderm__control_right slider__control_show" href="#" role="button"></a>
   </div>
+  </div>
+
 
   <footer id="footer" class="footer container-fluid mt-5" style="background-color: rgb(37, 215, 221);">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-        <h5 class="text-h3 textmd">featured sale</h5>
-        <p class="textsm" style="color: white;font-size: 14px;">Alexis Hudson <br>American Apparel <br>Ben Sherman
+        <p class="text-h3 textmd">featured sale</p>
+        <p class="textsm" style="color: white;font-size: 14px;  line-height: 1.3em;">Alexis Hudson <br>American Apparel
+          <br>Ben Sherman
           <br>Big Buddha <br>Chanel
           <br>Christian Audigier <br>Coach <br>Cole Haan</p>
       </div>
       <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-        <h5 class="text-h3 textmd">mens store</h5>
-        <p class="textsm" style="color: white;font-size: 14px;">Alexis Hudson <br>American Apparel <br>Ben Sherman
+        <p class="text-h3 textmd">mens store</p>
+        <p class="textsm" style="color: white;font-size: 14px;  line-height: 1.3em;">Alexis Hudson <br>American Apparel
+          <br>Ben Sherman
           <br>Big Buddha <br>Chanel
           <br>Christian Audigier <br>Coach <br>Cole Haan</p>
       </div>
       <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-        <h5 class="text-h3 textmd">women store</h5>
-        <p class="textsm" style="color: white;font-size: 14px;">Alexis Hudson <br>American Apparel <br>Ben Sherman
+        <p class="text-h3 textmd">women store</p>
+        <p class="textsm" style="color: white;font-size: 14px; line-height: 1.3em;">Alexis Hudson <br>American Apparel
+          <br>Ben Sherman
           <br>Big Buddha <br>Chanel
           <br>Christian Audigier <br>Coach <br>Cole Haan</p>
       </div>
       <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-        <h5 class="text-h3 textmd">quick links</h5>
-        <p class="textsm" style="color: white; font-size: 14px;">Alexis Hudson <br>American Apparel <br>Ben Sherman
+        <p class="text-h3 textmd">quick links</p>
+        <p class="textsm" style="color: white; font-size: 14px;  line-height: 1.3em;">Alexis Hudson <br>American Apparel
+          <br>Ben Sherman
           <br>Big Buddha <br>Chanel
           <br>Christian Audigier <br>Coach <br>Cole Haan</p>
       </div>
@@ -251,10 +293,14 @@
   <div class="container-fluid" style="background-color: rgb(12, 161, 219);">
     <div class="row">
       <div class="col-12 text-center">
-        <p class="p-footer textsm pt-2" style="font-size: 13px;">Copyright @ 2020 Css Author</p>
+        <p class="p-footer textsm pt-1" style="font-size: 13px;">Copyright @ 2020 Css Author</p>
       </div>
     </div>
   </div>
+
+
+  <script src="java.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
